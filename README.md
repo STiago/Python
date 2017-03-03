@@ -16,7 +16,7 @@ Repository with **python** exercises from several pages as [Hackerrank](https://
 
 ## Exercises
 
-### 1. List
+## 1. List
 #### Consider a list (list = []). You can perform the following commands:
 
 ```
@@ -70,7 +70,7 @@ if __name__ == '__main__':
 list.pop()
 ```
 
-### 2. Tuples
+## 2. Tuples
 #### Task
 Given an integer, , and space-separated integers as input, create a tuple, , of those integers. Then compute and print the result of .
 
@@ -105,7 +105,7 @@ if __name__ == '__main__':
     print(hash(t))
 ```
 
-### 3.List comprehensions
+## 3.List comprehensions
 
 #### Task
 Let's learn about list comprehensions! You are given three integers X, Y and Z representing the dimensions of a cuboid along with an integer N. You have to print a list of all possible coordinates given by (i,j,k) on a 3D grid where the sum of i+j+k is not equal to N. Here, 0<=i<=X; 0<=j<=Y; 0<=k<=Z
@@ -145,8 +145,8 @@ if __name__ == '__main__':
     print([list(x) for x in product(xd,yd,zd) if sum(x)!=n])
 ```
 
-### 4. Find the second largest number
-### Task
+## 4. Find the second largest number
+#### Task
 You are given N numbers. Store them in a list and find the second largest number.
 
 #### Input Format
@@ -175,12 +175,124 @@ if __name__ == '__main__':
     print(arr[-2]) 
 ```
 
-### 5.
+## 5.Nested Lists
+#### Task
+Given the names and grades for each student in a Physics class of N students, store them in a nested list and print the name(s) of any student(s) having the second lowest grade.
 
-### 6.
+Note: If there are multiple students with the same grade, order their names alphabetically and print each name on a new line.
 
+#### Input Format
 
-### 7.
+The first line contains an integer, N, the number of students.
+The 2N subsequent lines describe each student over 2 lines; the first line contains a student's name, and the second line contains their grade.
+
+#### Constraints
+    - 2<=N<=5
+    - There will always be one or more students having the second lowest grade.
+
+#### Output Format
+
+Print the name(s) of any student(s) having the second lowest grade in Physics; if there are multiple students, order their names alphabetically and print each one on a new line.
+
+#### Sample Input
+
+5
+Harry
+37.21
+Berry
+37.21
+Tina
+37.2
+Akriti
+41
+Harsh
+39
+
+#### Sample Output
+
+Berry
+Harry
+
+#### Solution
+
+```
+students = []
+for _ in range(int(raw_input())):
+    name = raw_input()
+    score = float(raw_input())
+    students.append([name,score])
+    
+stu = 0
+stu = students[0]
+minim = stu[1]
+n_min = stu[0]
+m = []
+name = []
+valor = 0
+
+students.sort(key=lambda x: x[1])
+lowest = students[0][1]
+two_worst = [s for s in students if s[1] != lowest][:2]
+
+if len(two_worst) > 1:
+    if two_worst[0][1] == two_worst[1][1]:
+        two_worst.sort(key = lambda x: x[0])
+        for s in two_worst:
+            print s[0]
+    else:
+        print(two_worst[0][0])
+else:
+    print (two_worst[0][0])
+```
+
+## 6.Finding the percentage
+#### Task
+You have a record of N students. Each record contains the student's name, and their percent marks in Maths, Physics and Chemistry. The marks can be floating values. The user enters some integer N followed by the names and marks for N students. You are required to save the record in a dictionary data type. The user then enters a student's name. Output the average percentage marks obtained by that student, correct to two decimal places.
+
+#### Input Format
+
+The first line contains the integer N, the number of students. The next N lines contains the name and marks obtained by that student separated by a space. The final line contains the name of a particular student previously listed.
+
+#### Output Format
+
+Print one line: The average of the marks obtained by the particular student correct to 2 decimal places.
+
+#### Sample Input
+
+3
+Krishna 67 68 69
+Arjun 70 98 63
+Malika 52 56 60
+Malika
+
+#### Sample Output
+
+56.00
+
+#### Solution
+
+```
+if __name__ == '__main__':
+    n = int(raw_input())
+    student_marks = {}
+    for _ in range(n):
+        line = raw_input().split()
+        name, scores = line[0], line[1:]
+        scores = map(float, scores)
+        student_marks[name] = scores
+    query_name = raw_input()
+    
+    marks = student_marks[query_name]
+    avg = reduce(lambda x,y: x+y, marks)/len(marks)
+    #print("{0:.2f}".format(avg))
+    print("%.2f" % avg)
+```
+
+## 7.Swap
+#### Task
+You are given a string . Your task is to swap cases. In other words, convert all lowercase letters to uppercase letters and vice versa.
+
+#### Solution
 
 
 
