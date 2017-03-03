@@ -4,7 +4,7 @@
 
 ### Tuesday 28th of February, 2017
 
-Repository with **python** exercises.
+Repository with **python** exercises from several pages as [Hackerrank](https://www.hackerrank.com/domains/python) .
 
 _Código_ liberado bajo licencia **GNU GENERAL PUBLIC LICENSE Version 3**.
 
@@ -23,4 +23,6 @@ _Texto_ liberado bajo la licencia **Creative Commons Attribution-ShareAlike 4.0 
 
 * Exercises:
     
-    - 
+    - [Questions](https://github.com/STiago/Python/tree/master/Questions)
+    
+    - [Code](https://github.com/STiago/Python/tree/master/Code)
