@@ -26,3 +26,21 @@ _Texto_ liberado bajo la licencia **Creative Commons Attribution-ShareAlike 4.0 
     - [Questions](https://github.com/STiago/Python/tree/master/Questions)
     
     - [Code](https://github.com/STiago/Python/tree/master/Code)
+
+* Index of exercises:
+
+    - 1. [List](https://github.com/STiago/Python/blob/master/Questions/1Lists.md) and the code is [here](https://github.com/STiago/Python/blob/master/Code/1lists.py).
+
+    - 2. [Tuples](https://github.com/STiago/Python/blob/master/Questions/2Tuples.md) and the code is [here](https://github.com/STiago/Python/blob/master/Code/2tuples.py).
+
+    - 3. [List comprehensions](https://github.com/STiago/Python/blob/master/Questions/3ListComprehension.md) and the code is [here](https://github.com/STiago/Python/blob/master/Code/3listcomprehension.py).
+
+    - 4. [Find the second largest number](https://github.com/STiago/Python/blob/master/Questions/4SLNumber.md) and the code is [here](https://github.com/STiago/Python/blob/master/Code/4SecondLargest.py).
+
+    - 5. [Nested Lists](https://github.com/STiago/Python/blob/master/Questions/5NestedList.md) and the code is [here](https://github.com/STiago/Python/blob/master/Code/5nestedlist.py).
+
+    - 6. [Finding the percentage](https://github.com/STiago/Python/blob/master/Questions/6FindingPercentage.md) and the code is [here](https://github.com/STiago/Python/blob/master/Code/6Fpercentage.py).
+
+    - 7. [Swap](https://github.com/STiago/Python/blob/master/Questions/7Swap.md) and the code is [here](https://github.com/STiago/Python/blob/master/Code/7Swap.py).
+
+
