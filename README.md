@@ -297,9 +297,9 @@ You are given a string . Your task is to swap cases. In other words, convert all
 
 
 
-_Código_ liberado bajo licencia **GNU GENERAL PUBLIC LICENSE Version 3**.
+_Code_ licensed by **GNU GENERAL PUBLIC LICENSE Version 3**.
 
-_Texto_ liberado bajo la licencia **Creative Commons Attribution-ShareAlike 4.0 International**.
+_Text_ licensed by **Creative Commons Attribution-ShareAlike 4.0 International**.
 
 <p align="center">
 <a href="http://www.gnu.org/licenses/gpl-3.0.html">
