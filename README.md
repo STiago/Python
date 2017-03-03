@@ -19,7 +19,7 @@ _Texto_ liberado bajo la licencia **Creative Commons Attribution-ShareAlike 4.0 
 </a>
 </p>
 
-* Documentation: [memory](https://stiago.github.io/Python/ .
+* Documentation: [memory](https://stiago.github.io/Python/) .
 
 * Exercises:
     
