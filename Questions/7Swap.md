@@ -4,6 +4,7 @@ You are given a string . Your task is to swap cases. In other words, convert all
 
 #### Solution
 
+```
 def swap_case(s):
     solution = ''
     for element in s:
@@ -18,3 +19,4 @@ if __name__ == '__main__':
     s = raw_input()
     result = swap_case(s)
     print result
+```
