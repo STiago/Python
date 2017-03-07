@@ -311,6 +311,34 @@ if __name__ == '__main__':
     print result
 ```
 
+## 8.String Split and Join
+#### Task
+You are given a string. Split the string on a " " (space) delimiter and join using a - hyphen.
+
+#### Input Format
+The first line contains a string consisting of space separated words.
+
+#### Output Format
+Print the formatted string as explained above.
+
+#### Sample Input
+
+this is a string 
+
+#### Sample Output
+
+this-is-a-string
+
+#### Solution
+
+```
+def split_and_join(line):
+    # write your code here
+    line = line.split(" ")
+    line = "-".join(line)
+    return line
+```
+
 
 
 _Code_ licensed by **GNU GENERAL PUBLIC LICENSE Version 3**.
