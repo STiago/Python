@@ -30,7 +30,7 @@ Repository with **python** exercises from several pages as [Hackerrank](https://
 
     - 7.[Swap](https://github.com/STiago/Python/blob/master/Questions/7Swap.md) and the code is [here](https://github.com/STiago/Python/blob/master/Code/7Swap.py).
 
-    - 8.[String Split and Join](https://github.com/STiago/Python/blob/master/Questions/8StringSplitJoin.md) and the code is [here](https://github.com/STiago/Python/blob/master/Code/8SstringSplitJoin.py).
+    - 8.[String Split and Join](https://github.com/STiago/Python/blob/master/Questions/8StringSplitJoin.md) and the code is [here](https://github.com/STiago/Python/blob/master/Code/8StringSplitJoin.py).
 
 _Code_ licensed by **GNU GENERAL PUBLIC LICENSE Version 3**.
 
