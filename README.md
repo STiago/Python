@@ -32,6 +32,8 @@ Repository with **python** exercises from several pages as [Hackerrank](https://
 
     - 8.[String Split and Join](https://github.com/STiago/Python/blob/master/Questions/8StringSplitJoin.md) and the code is [here](https://github.com/STiago/Python/blob/master/Code/8SstringSplitJoin.py).
 
+    - 9.[String](https://github.com/STiago/Python/blob/master/Questions/9String.md) and the code is [here](https://github.com/STiago/Python/blob/master/Code/9String.py).
+
 _Code_ licensed by **GNU GENERAL PUBLIC LICENSE Version 3**.
 
 _Text_ licensed by **Creative Commons Attribution-ShareAlike 4.0 International**.
