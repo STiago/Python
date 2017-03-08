@@ -36,6 +36,8 @@ Repository with **python** exercises from several pages as [Hackerrank](https://
 
     - 10.[Mutations](https://github.com/STiago/Python/blob/master/Questions/10Mutations.md) and the code is [here](https://github.com/STiago/Python/blob/master/Code/10Mutations.py).
 
+    - 11.[Find a String](https://github.com/STiago/Python/blob/master/Questions/11FindString.md) and the code is [here](https://github.com/STiago/Python/blob/master/Code/11FindString.py).
+
 _Code_ licensed by **GNU GENERAL PUBLIC LICENSE Version 3**.
 
 _Text_ licensed by **Creative Commons Attribution-ShareAlike 4.0 International**.
