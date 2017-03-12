@@ -447,7 +447,7 @@ CDC
 def count_substring(string, sub_string):
     count = 0
     i = 0
-    while i < len(string):
+    while i<len(string):
         a = string.find(sub_string,i,len(string))
         if a == -1:
             a = 0
@@ -462,6 +462,43 @@ if __name__ == '__main__':
     
     count = count_substring(string, sub_string)
     print count
+
+```
+
+
+## 12.String Validators
+#### Task
+You are given a string .
+Your task is to find out if the string contains: alphanumeric characters, alphabetical characters, digits, lowercase and uppercase characters.
+
+#### Input Format
+
+A single line containing a string .
+
+#### Output Format
+
+In the first line, print True if has any alphanumeric characters. Otherwise, print False.
+In the second line, print True if has any alphabetical characters. Otherwise, print False.
+In the third line, print True if has any digits. Otherwise, print False.
+In the fourth line, print True if has any lowercase characters. Otherwise, print False.
+In the fifth line, print True if has any uppercase characters. Otherwise, print False.
+
+#### Sample Input
+
+qA2
+
+#### Sample Output
+
+True
+True
+True
+True
+True
+
+#### Solution
+
+```
+
 ```
 
 
