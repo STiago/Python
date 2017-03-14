@@ -38,7 +38,9 @@ Repository with **python** exercises from several pages as [Hackerrank](https://
 
     - 11.[Find a String](https://github.com/STiago/Python/blob/master/Questions/11FindString.md) and the code is [here](https://github.com/STiago/Python/blob/master/Code/11FindString.py).
     
-    - 12.[]()
+    - 12.[Airports](https://github.com/STiago/Python/blob/master/Questions/airports.md) and the code is [here](https://github.com/STiago/Python/blob/master/Code/airports.py).
+
+    - 13.[Temperatues](https://github.com/STiago/Python/blob/master/Questions/temperatures.md) and the code is [here](https://github.com/STiago/Python/blob/master/Code/temperatures.py)
 
 _Code_ licensed by **GNU GENERAL PUBLIC LICENSE Version 3**.
 

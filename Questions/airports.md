@@ -1,21 +1,22 @@
+## Airports
  	
 In this exercise, you have to find the closest route between two airports.
  
 Write a function findRoutes(source, destination) that efficiently outputs all possible routes sorted by distance.
  
-INPUT:
+#### INPUT:
 Line 1: N, the number of segments
 Line 2: ORIGIN, the IATA code of the origin
 Line 2: DESTINATION, the IATA code of the destination
 Line 3 to N+3: The N segments expressed as ORIGIN DESTINATION DISTANCE
  
-OUTPUT:
+#### OUTPUT:
 
     Display ORIGIN if no segment is provided
     Otherwise, display the list of possible itineraries sorted by distance
 
  
-CONSTRAINTS:
+#### CONSTRAINTS:
 0 ≤ N < 1000
 
 PYTHON CODE TO READ INPUT:
@@ -42,7 +43,8 @@ SFO LAX 338
 PHX SEA 1107
 LAX PHX 370
 PHX MSP 1276
-Output
+
+#### Output
 SFO -> LAX -> PHX -> MSP
 SFO -> SEA -> MSP
 SFO -> LAX -> PHX -> SEA -> MSP
