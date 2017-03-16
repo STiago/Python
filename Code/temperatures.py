@@ -22,6 +22,7 @@ s.sort()
 for i in range(0,n):
     if s[i] == 0:
         position = i
+        break
         
 # Number close to 0
 less = s[position-1]
