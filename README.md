@@ -44,6 +44,8 @@ Repository with **python** exercises from several pages as [Hackerrank](https://
 
     - 14.[Apples vs Oranges](https://github.com/STiago/Python/blob/master/Questions/14appleorange.md) and the code is [here](https://github.com/STiago/Python/blob/master/Code/14appleorange.py)
 
+    -15.[Kangaroos](https://github.com/STiago/Python/blob/master/Questions/15Kangaroos.md) and the code is [here](https://github.com/STiago/Python/blob/master/Code/15Kangaroos.py)
+
 _Code_ licensed by **GNU GENERAL PUBLIC LICENSE Version 3**.
 
 _Text_ licensed by **Creative Commons Attribution-ShareAlike 4.0 International**.
