@@ -42,6 +42,8 @@ Repository with **python** exercises from several pages as [Hackerrank](https://
 
     - 13.[Temperatues](https://github.com/STiago/Python/blob/master/Questions/temperatures.md) and the code is [here](https://github.com/STiago/Python/blob/master/Code/temperatures.py)
 
+    - 14.[Apples vs Oranges](https://github.com/STiago/Python/blob/master/Questions/14appleorange.md) and the code is [here](https://github.com/STiago/Python/blob/master/Code/14appleorange.py)
+
 _Code_ licensed by **GNU GENERAL PUBLIC LICENSE Version 3**.
 
 _Text_ licensed by **Creative Commons Attribution-ShareAlike 4.0 International**.
