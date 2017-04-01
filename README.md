@@ -49,6 +49,8 @@ Repository with **python** exercises from several pages as [Hackerrank](https://
     - 16.[Bon Appetit](https://github.com/STiago/Python/blob/master/Questions/16BonAp.md) and the code is [here](https://github.com/STiago/Python/blob/master/Code/16BonAp.py)
     
     - 17.[]()
+    
+    - 18.[]()
 
 _Code_ licensed by **GNU GENERAL PUBLIC LICENSE Version 3**.
 
