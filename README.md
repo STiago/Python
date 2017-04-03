@@ -48,7 +48,7 @@ Repository with **python** exercises from several pages as [Hackerrank](https://
     
     - 16.[Bon Appetit](https://github.com/STiago/Python/blob/master/Questions/16BonAp.md) and the code is [here](https://github.com/STiago/Python/blob/master/Code/16BonAp.py)
     
-    - 17.[Drawing Book]()
+    - 17.[Drawing Book](https://github.com/STiago/Python/blob/master/Questions/17Book.md) and the code is [here](https://github.com/STiago/Python/blob/master/Code/17Book.py)
     
     - 18.[]()
 
