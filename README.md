@@ -658,7 +658,7 @@ x1,v1,x2,v2 = [int(x1),int(v1),int(x2),int(v2)]
 solution = positionKangaroos(x1,v1,x2,v2)
 ```
 
-## Bon Appetit
+## 16.Bon Appetit
 
 #### Task
 
@@ -713,7 +713,7 @@ else:
 ```
 
 
-## Book
+## 17.Book
 
 #### Task
 Brie’s Drawing teacher asks her class to open their n-page book to page number p. Brie can either start turning pages from the front of the book (i.e., page number 1) or from the back of the book (i.e., page number n), and she always turns pages one-by-one (as opposed to skipping through multiple pages at once). When she opens the book, page is always on the right side.
@@ -753,6 +753,56 @@ p = int(raw_input().strip())
 solution = 0
 solution = min(p//2, n//2 - p//2)
 print(solution)
+```
+
+
+## 18.Cake Candles
+
+#### Task
+Colleen is turning years old! She has n candles of various heights on her cake, and candle i has height "height". Because the taller candles tower over the shorter ones, Colleen can only blow out the tallest candles.
+
+Given height the for each individual candle, find and print the number of candles she can successfully blow out.
+
+#### Input Format
+
+The first line contains a single integer,n , denoting the number of candles on the cake.
+The second line contains n space-separated integers, where each integer i describes the height of candle i.
+
+#### Output Format
+
+Print the number of candles Colleen blows out on a new line.
+
+#### Sample Input 0
+
+4
+3 2 1 3
+
+#### Sample Output 0
+
+2
+
+#### Solution
+
+```
+#!/bin/python
+
+import sys
+
+def blows(n,height):
+    heightest = max(height)
+    blows = 0
+
+    for i in height:
+        if i==heightest:
+            blows +=1
+    return blows
+
+n = int(raw_input().strip())
+height = map(int,raw_input().strip().split(' '))
+
+solution = blows(n,height)
+
+print solution
 ```
 
 
