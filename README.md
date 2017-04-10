@@ -54,6 +54,10 @@ Repository with **python** exercises from several pages as [Hackerrank](https://
 
     - 19.[Quicksort](https://github.com/STiago/Python/blob/master/Questions/19Quicksort.md) and the code is [here](https://github.com/STiago/Python/blob/master/Code/19Quicksort.py).
 
+    - 20.[Palindromo](https://github.com/STiago/Python/blob/master/Questions/20Palindromo.md) and the code is [here](https://github.com/STiago/Python/blob/master/Code/20Palindromo.py).
+
+    - 21.[Binary search](https://github.com/STiago/Binary_search/blob/master/README.md) and the code is [here](https://github.com/STiago/Binary_search/blob/master/binary_search.py).
+
 _Code_ licensed by **GNU GENERAL PUBLIC LICENSE Version 3**.
 
 _Text_ licensed by **Creative Commons Attribution-ShareAlike 4.0 International**.
