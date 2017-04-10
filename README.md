@@ -50,9 +50,11 @@ Repository with **python** exercises from several pages as [Hackerrank](https://
     
     - 17.[Drawing Book](https://github.com/STiago/Python/blob/master/Questions/17Book.md) and the code is [here](https://github.com/STiago/Python/blob/master/Code/17Book.py).
     
-    - 18.[CakeCandles](https://github.com/STiago/Python/blob/master/Questions/18CakeCandles.md) and the code is [here](https://github.com/STiago/Python/blob/master/Code/18CakeCandles.py)
+    - 18.[CakeCandles](https://github.com/STiago/Python/blob/master/Questions/18CakeCandles.md) and the code is [here](https://github.com/STiago/Python/blob/master/Code/18CakeCandles.py).
 
     - 19.[Quicksort](https://github.com/STiago/Python/blob/master/Questions/19Quicksort.md) and the code is [here](https://github.com/STiago/Python/blob/master/Code/19Quicksort.py).
+    
+    
 
     - 20.[Palindromo](https://github.com/STiago/Python/blob/master/Questions/20Palindromo.md) and the code is [here](https://github.com/STiago/Python/blob/master/Code/20Palindromo.py).
 
