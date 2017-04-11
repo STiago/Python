@@ -60,7 +60,7 @@ Repository with **python** exercises from several pages as [Hackerrank](https://
 
     - 21.[Binary search](https://github.com/STiago/Binary_search/blob/master/README.md) and the code is [here](https://github.com/STiago/Binary_search/blob/master/binary_search.py).
 
-    - 22.[Pair and odd addition](https://github.com/STiago/Binary_search/blob/master/21Number.py) and the code is [here](https://github.com/STiago/Binary_search/blob/master/21Number.py).
+    - 22.[Pair and odd addition](https://github.com/STiago/Python/blob/master/Code/21Number.py) and the code is [here](https://github.com/STiago/Python/blob/master/Code/21Number.py).
 
 _Code_ licensed by **GNU GENERAL PUBLIC LICENSE Version 3**.
 
