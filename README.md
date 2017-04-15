@@ -851,6 +851,16 @@ print partition(ar)
 
 
 
+## 20.Palindromo and the code is here.
+
+## 21.Binary search and the code is here.
+
+## 22.Pair and odd addition and the code is here.
+
+## 23.Password generator and the code is here.
+
+
+
 _Code_ licensed by **GNU GENERAL PUBLIC LICENSE Version 3**.
 
 _Text_ licensed by **Creative Commons Attribution-ShareAlike 4.0 International**.
