@@ -64,7 +64,7 @@ Repository with **python** exercises from several pages as [Hackerrank](https://
     
     - 24.[Alias](https://github.com/STiago/Python/blob/master/Code/24Alias.py) and the code is [here](https://github.com/STiago/Python/blob/master/Code/24Alias.py).
     
-    - 25.[](https://github.com/STiago/Python/blob/master/Code/24Alias.py) and the code is [here](https://github.com/STiago/Python/blob/master/Code/24Alias.py).
+    - 25.[RegEx Challenge](https://github.com/STiago/Python/blob/master/Code/24Alias.py) and the code is [here](https://github.com/STiago/Python/blob/master/Code/24Alias.py).
     
     
 
