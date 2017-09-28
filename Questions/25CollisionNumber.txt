@@ -1,0 +1,29 @@
+## Collision Number
+#### Task
+You are given the file with several numbers, you must to assign a new number reducing collision with this numbers in range 0-250.
+
+#### Input Format
+
+File with numbers
+
+#### Output Format
+
+The new number assigned
+
+#### Sample Input
+Example:
+Range 1-5
+Number       Number, Occurences
+5            [[5, 3],  
+1             [1, 1],
+4     ---->   [2, 2],
+2             [4, 1],
+5             [3, 0]]
+5
+2
+
+#### Sample Output
+
+Nex number to assign: 3
+
+
