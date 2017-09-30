@@ -66,7 +66,7 @@ Repository with **python** exercises from several pages as [Hackerrank](https://
     
     - 25.[RegEx Challenge](https://github.com/STiago/Python/blob/master/Code/24Alias.py) and the code is [here](https://github.com/STiago/Python/blob/master/Code/24Alias.py).
     
-    
+    - 26.[Collision Number](https://github.com/STiago/Python/blob/master/Code/25CollisionNumber.py) and the code is [here](https://github.com/STiago/Python/blob/master/Code/25CollisionNumber.py)
 
 
 
