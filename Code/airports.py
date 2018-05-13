@@ -4,67 +4,60 @@
 
 import sys
 
-adj = {} #adjacency list
-
+adj = {} 
 dist = {}
 
 def get_distance(road):
-    pass
-    #in my home dir
+    sum_dist = 0
+    for i in range(0,len(road)-1):
+        a = road[i]
+        b = road[i+1]
+    sum_dist += int(dist[(a,b)])
+    return sum_dist
+
 
 def find_routes(node, destination, routes, current_road, visited):
-
     visited.add(node)
     current_road.append(node)
-
-    print "Step ", node, destination, "Routes:", routes, "Current_road ", current_road, visited, "\n"
-
-    #reached destination
+    
     if node == destination:
         routes.append(list(current_road))
     if node not in adj:
         return
-
+    
     if node in adj:
         for i in adj[node]:
             if i not in visited:
-                #add
-                #recurse
                 find_routes(i, destination, routes, current_road, visited)
-
-                #take out
                 del current_road[-1]
                 visited.remove(i)
 
-
-
-def findRoutes(source, destination):
-    pass
-    #in my home dir
-
+                
 n = int(raw_input())
 origin = raw_input()
 destination = raw_input()
 
-print n, origin, destination
 segments = []
-
 for i in xrange(n):
     segments.append(raw_input())
     a, b, dis = segments[-1].split(" ")
-    print a,b, dis
+       
     if a in adj:
         adj[a].append(b)
     else:
         adj[a] = [b]
-
     dist[ (a,b) ] = dis
-
-print adj, dist
 
 routes = []
 
 find_routes(origin, destination, routes, [], set())
 
-print routes
+r_dists = [ (r, get_distance(r)) for r in routes]
+r_dists.sort(key = lambda tup : tup[1])
+
+for i in r_dists:
+    for a in range(0, len(i[0])-1):
+        sys.stdout.write(i[0][a])
+        sys.stdout.write(" -> ")
+    print i[0][-1]
 
