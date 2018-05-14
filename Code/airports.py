@@ -2,6 +2,7 @@
 # Write outputs to Standard Output.
 # Please, do not use fileinput module to read Standard Input.
 
+
 import sys
 
 def findRoutes(source, destination):
@@ -24,6 +25,12 @@ def findRoutes(source, destination):
             intermedite = dep[i]
             findRoutes(intermedite,destination)
     return arrive
+
+    ######################################
+    ######################################
+    ###        writing                   #
+    #######################################
+    ######################################
 
 if __name__ == '__main__':
     n = int(raw_input())
